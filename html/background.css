@@ -1,0 +1,51 @@
+h2 {
+    color:brown;
+  }
+  h3 {
+      color: blue;
+  }
+  /*grouping selector*/
+  h2,p {
+      text-align: center;
+  }
+  /*id selector*/
+  #first {
+      color:aqua;
+  }
+  
+  /*class selector*/
+  .second {
+      color: rgb(90, 0, 128);
+  }
+/*
+styles with background properties
+*/
+h2 {
+    background-color: yellowgreen;
+}
+
+body {
+    background-color: rgb(53, 177, 208);
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+h1 {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(4, 255, 0);
+}
+
+h2 {
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(255, 255, 0);
+}
+h2 {
+    border-top-style: groove;
+    border-bottom-style: dotted;
+    border-right-style: dashed;
+    border-left-style: double;
+    border-width: 10px;
+    border-color: rgb(255, 119, 0);
+}

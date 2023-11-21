@@ -1,0 +1,31 @@
+/*we can select multiple heading by using cama h2,h3*/
+/*this is element selector*/
+h2 {
+    color:brown;
+  }
+  h3 {
+      color: blue;
+  }
+  /*grouping selector*/
+  h2,p {
+      text-align: center;
+  }
+  /*id selector*/
+  #first {
+      color:aqua;
+  }
+  
+  /*class selector*/
+  .second {
+      color: rgb(90, 0, 128);
+  }
+  /*class background*/
+  h2 {
+    background-color: yellowgreen;
+}
+
+body {
+    background-color: rgb(208, 53, 118);
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
